@@ -10,24 +10,6 @@ A SwiftUI modifier that triggers a closure when a view becomes visible on the sc
 - ✅ Thread-safe execution on main queue
 - ✅ Easy to use with a simple modifier syntax
 
-## Installation
-
-### Swift Package Manager
-
-Add this package to your project using Xcode:
-
-1. File → Add Package Dependencies
-2. Enter the repository URL
-3. Select the version you want to use
-
-Or add it to your `Package.swift`:
-
-```swift
-dependencies: [
-  .package(url: "https://github.com/FluidGroup/swiftui-on-visible-modifier.git", from: "1.0.0")
-]
-```
-
 ## Usage
 
 ### Basic Usage
@@ -80,9 +62,6 @@ struct ListView: View {
 ### Use Cases
 
 - **Analytics Tracking**: Track when specific content becomes visible to users
-- **Lazy Loading**: Load content or images when they're about to be displayed
-- **Performance Monitoring**: Measure scroll performance and user engagement
-- **Progressive Disclosure**: Reveal content as users scroll through your app
 
 ## How It Works
 
